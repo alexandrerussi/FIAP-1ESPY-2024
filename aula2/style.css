@@ -1,0 +1,38 @@
+/* CSS EXTERNO */
+
+p {
+    /* margin: 50px 10px 30px 5px; */
+    margin: 0 auto;
+    /* margin-top: 50px; */
+    /* margin-right: 10px; */
+    /* margin-bottom: 30px; */
+    /* margin-left: 5px; */
+    border: 5px solid red;
+    width: 300px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.texto-estilizado {
+    font-family: Arial;
+    text-align: justify;
+    font-size: 18px;
+    color: brown;
+    line-height: 30px;
+}
+
+span {
+    font-weight: bold;
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+
+a {
+    text-decoration: none;
+    padding: 15px 50px;
+    background: blueviolet;
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial;
+}
