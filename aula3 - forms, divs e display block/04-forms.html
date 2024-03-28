@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários em HTML</title>
+</head>
+
+<body>
+
+    <main>
+        <form>
+            <div>
+                <label for="txtNome">Nome: </label>
+                <input type="text" placeholder="Digite seu nome" id="txtNome" name="txtNome">
+            </div>
+            <div>
+                <label for="txtEmail">E-mail: </label>
+                <input type="email" id="txtEmail" name="txtEmail" required>
+            </div>
+            <div>
+                <label for="txtSenha">Senha: </label>
+                <input type="password" id="txtSenha" name="txtSenha">
+            </div>
+
+            <a href="03-float.html">IR PARA FLOAT</a>
+
+            <div>
+                <label for="dataNascimento">Data de nascimento</label>
+                <input type="date" id="dataNascimento" name="dataNascimento">
+            </div>
+
+            <div>
+                <label for="">Selecione o seu estado</label>
+                <select name="selectEstado" id="selectEstado">
+                    <option value="sp">São Paulo</option>
+                    <option value="rj">Rio de Janeiro</option>
+                </select>
+            </div>
+
+            <div>
+                <p>Escolha a sua linguagem de programação favorita: </p>
+
+                <input type="radio" name="favLinguagens" id="csharp" value="csharp">
+                <label for="csharp">C#</label><br>
+
+                <input type="radio" name="favLinguagens" id="python" value="python">
+                <label for="python">Python</label><br>
+                
+                <input type="radio" name="favLinguagens" id="js" value="js">
+                <label for="js">JS</label>
+
+            </div>
+
+            <div>
+                <p>Selecione o seu tipo de transporte </p>
+
+                <input type="checkbox" name="veiculo1" id="veiculo1">
+                <label for="veiculo1">Bicicleta</label><br>
+
+                <input type="checkbox" name="veiculo2" id="veiculo2">
+                <label for="veiculo2">Carro</label><br>
+                
+                <input type="checkbox" name="veiculo3" id="veiculo3">
+                <label for="veiculo3">O famoso mercedez</label>
+
+            </div>
+
+            <div>
+                <label for="txtArea">Fala ai pra mim da sua vida!</label>
+                <textarea name="txtArea" id="txtArea" cols="30" rows="3"></textarea>
+            </div>
+
+            <input type="submit" value="Finalizar">
+        </form>
+    </main>
+
+</body>
+
+</html>
