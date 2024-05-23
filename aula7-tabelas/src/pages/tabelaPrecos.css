@@ -1,0 +1,59 @@
+table {
+    width: 70%;
+    min-width: 500px;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+th, td {
+    text-align: left;
+    padding: 15px;
+}
+
+tr.planos {
+    background-color: blue;
+}
+
+tr.planos th {
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+tr.precos {
+    background-color: rgb(238, 238, 238);
+}
+
+tr.precos th {
+    text-transform: uppercase;
+}
+
+
+/* tbody tr:nth-child(3) td {
+    background-color: rebeccapurple;
+    color: white;
+} */
+
+tbody tr:nth-child(even) td {
+    background-color: #b3e6ff;
+}
+
+tbody tr:nth-child(odd) td {
+    background-color: #a4bbed;
+}
+
+tbody tr td {
+    transition: all .3s;
+}
+
+tbody tr:hover td {
+    background-color: #79ff4c;
+    cursor: pointer;
+    transition: all .3s;
+}
