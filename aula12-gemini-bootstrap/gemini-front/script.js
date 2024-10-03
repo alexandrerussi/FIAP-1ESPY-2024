@@ -42,6 +42,19 @@ form.addEventListener("submit", (event) => {
         body: JSON.stringify({
             messages
         })
-    });
+    })
+        .then(res => res.json())
+        .then(data => {
+            console.log(data);
+
+            const messageElement = document.createElement("div");
+            messageElement.classList.add("message");
+            messageElement.classList.add("message--assistant");
+            messageElement.innerHTML = `
+                <div class="message__text">${data.chat_completion}</div>
+            `;
+            chatLog.appendChild(messageElement);
+        })
+        
 
 });
