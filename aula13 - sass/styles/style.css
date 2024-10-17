@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  height: 100vh;
+  background-color: #0f006a;
+  margin: 0 auto;
+}
+.container .box {
+  width: 300px;
+  height: 200px;
+  background-color: purple;
+}
+.container .box:hover {
+  background-color: #880000;
+}
+
+/*# sourceMappingURL=style.css.map */

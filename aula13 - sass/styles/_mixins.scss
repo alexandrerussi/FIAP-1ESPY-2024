@@ -1,0 +1,9 @@
+@mixin div-size($w, $h) {
+    width: $w;
+    height: $h;
+}
+
+@mixin default-config() {
+    margin: 0;
+    padding: 0;
+}
